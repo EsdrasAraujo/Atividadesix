@@ -1,0 +1,40 @@
+.card {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: #000000ad;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}
+
+.card-img {
+  border-radius: 10px;
+  width: 300px;
+  ;
+}
+
+.heart,
+.details_img {
+  width: 23px;
+  height: 23px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  border-radius: 40%;
+}
+
+.options_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+

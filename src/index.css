@@ -1,0 +1,20 @@
+:root > body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.divSearch{
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+  height: 30px;
+}
+
+#root {
+  background-image: url("../public/background/1920x1080-4k-tx61c56mkpzhae7w.jpg");
+  background-attachment: fixed;
+}

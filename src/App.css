@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card_container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.473);
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.barra-de-pesquisa {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 8px;
+  background-color: #00000094;
+  text-align: center;
+}
+
+.input_Search {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #00000094;
+  width: 600px;
+  color: white;
+  text-align: center;
+}
